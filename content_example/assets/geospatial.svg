@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="City demand heatmap">
+  <rect width="720" height="420" rx="28" fill="#edf3f5"/>
+  <g stroke="#fff" stroke-width="4"><rect x="80" y="70" width="135" height="120" fill="#9fb56f"/><rect x="215" y="70" width="170" height="120" fill="#da5f3f"/><rect x="385" y="70" width="250" height="120" fill="#315e7d"/><rect x="80" y="190" width="205" height="150" fill="#e2a256"/><rect x="285" y="190" width="155" height="150" fill="#75875a"/><rect x="440" y="190" width="195" height="150" fill="#da5f3f"/></g>
+  <text x="80" y="382" fill="#1f2633" font-family="Arial" font-size="28" font-weight="700">Zone-level demand forecast</text>
+</svg>

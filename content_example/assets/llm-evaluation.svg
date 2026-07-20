@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Retrieval evaluation matrix">
+  <rect width="720" height="420" rx="28" fill="#fff8ea"/>
+  <g transform="translate(96 80)">
+    <rect width="528" height="240" rx="22" fill="#1f2633"/>
+    <g fill="#fff8ea" font-family="Arial" font-size="22" font-weight="700"><text x="34" y="58">Retrieval</text><text x="210" y="58">Citation</text><text x="368" y="58">Answer</text></g>
+    <g fill="#da5f3f"><circle cx="74" cy="136" r="28"/><circle cx="250" cy="176" r="28"/><circle cx="426" cy="118" r="28"/></g>
+    <g stroke="#fff8ea" stroke-width="5"><path d="M102 136h120"/><path d="M278 176l120-48"/></g>
+  </g>
+</svg>

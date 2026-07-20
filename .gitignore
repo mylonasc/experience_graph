@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+playwright-report/
+.DS_Store
+*.zip
+dist/
+tmp/
+content/experiences/2

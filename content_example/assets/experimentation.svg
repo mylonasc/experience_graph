@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Experiment lifecycle diagram">
+  <rect width="720" height="420" rx="28" fill="#f4efe4"/>
+  <g fill="none" stroke="#315e7d" stroke-width="14"><path d="M160 210a200 130 0 1 1 1 0"/></g>
+  <g fill="#da5f3f"><circle cx="160" cy="210" r="36"/><circle cx="360" cy="82" r="36"/><circle cx="560" cy="210" r="36"/><circle cx="360" cy="338" r="36"/></g>
+  <text x="196" y="222" fill="#1f2633" font-family="Arial" font-size="28" font-weight="700">Design -> Analyze -> Decide</text>
+</svg>

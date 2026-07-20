@@ -1,0 +1,25 @@
+{
+  "name": "Your Name",
+  "role": "Your Professional Role",
+  "location": "City, Country / Remote",
+  "summary": "A short profile summary describing your expertise, the kinds of problems you solve, and the value of your work.",
+  "focus": [
+    "Focus area one",
+    "Focus area two",
+    "Focus area three"
+  ],
+  "links": [
+    {
+      "label": "Portfolio",
+      "url": "https://example.com"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/example"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/example"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Churn workflow diagram">
+  <rect width="720" height="420" rx="28" fill="#fff8ea"/>
+  <path d="M88 316c86-98 151-36 224-121s165-91 321-44" fill="none" stroke="#da5f3f" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#315e7d"><circle cx="106" cy="300" r="30"/><circle cx="310" cy="196" r="30"/><circle cx="612" cy="154" r="30"/></g>
+  <g fill="#1f2633" font-family="Arial" font-weight="700" font-size="24"><text x="70" y="84">Risk scoring</text><text x="70" y="118">+ explainability</text></g>
+</svg>

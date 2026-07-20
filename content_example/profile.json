@@ -1,0 +1,36 @@
+{
+  "name": "Dr. Elena Markou",
+  "role": "Data Scientist and Applied ML Lead",
+  "location": "Athens, Greece / Remote",
+  "summary": "Elena designs data products that connect statistical modeling, product judgment, and deployable machine learning systems. Her work spans forecasting, experimentation, geospatial analytics, model evaluation, and AI-assisted decision support.",
+  "focus": [
+    "Applied machine learning",
+    "Decision intelligence",
+    "Experimentation",
+    "Geospatial analytics",
+    "LLM evaluation",
+    "MLOps"
+  ],
+  "links": [
+    {
+      "label": "Portfolio",
+      "url": "https://example.com/elena"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/example"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/example"
+    }
+  ],
+  "experiences": [
+    "customer-churn-modeling",
+    "geospatial-demand-forecasting",
+    "llm-evaluation-framework",
+    "product-experimentation-platform",
+    "public-health-dashboard",
+    "model-monitoring-pipeline"
+  ]
+}

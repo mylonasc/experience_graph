@@ -1,0 +1,32 @@
+{
+  "name": "Harry Mylonas",
+  "role": "Lead AI Engineer, ML Practitioner, and Technical Consultant",
+  "location": "Zurich, Switzerland ",
+  "summary": "Charilaos builds machine-learning and scientific-computing systems across agentic AI, graph learning, probabilistic deep learning, data infrastructure, and engineering applications. His work combines research depth with production software engineering, cloud platforms, DevOps, and technically demanding domains including financial services, power systems, and structural monitoring.",
+  "focus": [
+    "Agentic AI and LLM systems",
+    "Graph machine learning",
+    "Probabilistic and generative modeling",
+    "Scientific and physics-informed ML",
+    "MLOps, cloud, and platform engineering",
+    "High-performance and systems software"
+  ],
+  "links": [
+    {
+      "label": "Portfolio",
+      "url": "https://mylonasc.netlify.app"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/mylonasc"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/charilaos-mylonas-phd-54691948/"
+    },
+    {
+      "label": "Projects blog",
+      "url": "https://mylonasc.github.io/"
+    }
+  ]
+}

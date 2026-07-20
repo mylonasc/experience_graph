@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Experience Navigator</title>
+    <meta name="description" content="Interactive static portfolio and experience graph.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <main class="workspace">
+        <section class="graph-panel" aria-label="Interactive experience graph">
+          <div class="graph-toolbar">
+            <div>
+              <h2>Experience Graph</h2>
+              <p>Drag nodes to explore relationships. Click topic and skill nodes to filter; double-click experience nodes to open details.</p>
+            </div>
+            <div class="graph-actions" aria-label="Graph controls">
+              <button class="secondary-button icon-button" id="zoomOut" type="button" aria-label="Zoom out">-</button>
+              <button class="secondary-button icon-button" id="zoomIn" type="button" aria-label="Zoom in">+</button>
+              <button class="secondary-button" id="zoomExtent" type="button">Extent</button>
+              <button class="secondary-button" id="resetGraph" type="button">Reset graph</button>
+            </div>
+          </div>
+          <div class="graph-visibility" aria-label="Visible graph node groups">
+            <label class="graph-toggle active">
+              <input id="toggleTopics" type="checkbox" checked>
+              <span>Topics</span>
+            </label>
+            <label class="graph-toggle active">
+              <input id="toggleSkills" type="checkbox" checked>
+              <span>Skills</span>
+            </label>
+          </div>
+          <div id="graphHint" class="graph-hint" aria-live="polite"><span>Hover over a node to see available actions. Press Esc to reset graph selection.</span></div>
+          <div class="graph-stage">
+            <svg id="graph" role="img" aria-label="Experience graph visualization"></svg>
+            <div id="nodeTooltip" class="node-tooltip" hidden></div>
+          </div>
+        </section>
+
+        <header class="hero">
+          <div>
+            <p class="eyebrow">Experience Navigator</p>
+            <h1 id="profileName">Loading profile</h1>
+            <p class="role" id="profileRole"></p>
+            <p class="summary" id="profileSummary"></p>
+            <div class="profile-links" id="profileLinks"></div>
+          </div>
+          <aside class="hero-card">
+            <span>Project Selector</span>
+            <div id="projectTypeFilters" class="project-type-controls" aria-label="Project type selectors"></div>
+            <div id="projectFilters" class="chip-list"></div>
+          </aside>
+        </header>
+
+        <section class="controls" aria-label="Search and filters">
+          <div class="search-group">
+            <label class="search-label" for="searchInput">Search experiences, topics, skills, or details</label>
+            <input id="searchInput" type="search" placeholder="Try: forecasting, RAG, dashboards, Python">
+          </div>
+          <div class="filter-row">
+            <button class="secondary-button" id="clearFilters" type="button">Clear filters</button>
+            <span id="resultCount" aria-live="polite"></span>
+          </div>
+          <div class="filter-block">
+            <h2>Topics</h2>
+            <div id="topicFilters" class="chip-list"></div>
+          </div>
+          <div class="filter-block">
+            <h2>Skills</h2>
+            <div id="skillFilters" class="chip-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <aside id="detailPanel" class="detail-panel" aria-hidden="true">
+      <button id="closePanel" class="close-button" type="button" aria-label="Close details">Close</button>
+      <div id="detailContent"></div>
+    </aside>
+    <div id="panelScrim" class="panel-scrim" hidden></div>
+
+    <script src="data.js"></script>
+    <script src="vendor/d3.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

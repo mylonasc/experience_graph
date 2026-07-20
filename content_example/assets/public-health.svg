@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Public health dashboard cards">
+  <rect width="720" height="420" rx="28" fill="#edf3f5"/>
+  <g fill="#fff8ea" stroke="#d7ccb7" stroke-width="3"><rect x="76" y="72" width="250" height="122" rx="20"/><rect x="394" y="72" width="250" height="122" rx="20"/><rect x="76" y="232" width="568" height="112" rx="20"/></g>
+  <g fill="none" stroke="#da5f3f" stroke-width="10" stroke-linecap="round"><path d="M112 154l40-34 42 18 72-48"/><path d="M430 152h72m-72-38h146"/><path d="M118 294h448"/></g>
+</svg>
